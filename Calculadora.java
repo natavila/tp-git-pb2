@@ -8,7 +8,7 @@ public class Calculadora {
 		 Integer b = 0;
 		 Integer opcion;
 		 Integer resultado;
-		 System.out.println("Ingrese su operación /n 1 para sumar /n 2 para restar /n 3 para multiplicar /n 4 para dividir");
+		 System.out.println("Ingrese peración /n 1 para dividir /n 2 para multiplicar /n 3 para restar /n 4 para sumar");
 		 
 		 opcion = teclado.nextInt();
 		 
@@ -19,7 +19,7 @@ public class Calculadora {
 			 a = teclado.nextInt();
 			 System.out.println("Ingrese el segundo numero");
 			 b = teclado.nextInt();
-			 resultado = a + b;
+			 resultado = a / b;
 			 System.out.println("El resultado es: " + resultado);
 			 break;
 		 case 2:	 
@@ -27,7 +27,7 @@ public class Calculadora {
 			 a = teclado.nextInt();
 			 System.out.println("Ingrese el segundo numero");
 			 b = teclado.nextInt();
-			 resultado = a - b;
+			 resultado = a * b;
 			 System.out.println("El resultado es: " + resultado);
 			 break;
 		 case 3:
@@ -35,7 +35,7 @@ public class Calculadora {
 			 a = teclado.nextInt();
 			 System.out.println("Ingrese el segundo numero");
 			 b = teclado.nextInt();
-			 resultado = a * b;
+			 resultado = a - b;
 			 System.out.println("El resultado es: " + resultado);
 			 break;
 		 case 4:
@@ -43,7 +43,7 @@ public class Calculadora {
 			 a = teclado.nextInt();
 			 System.out.println("Ingrese el segundo numero");
 			 b = teclado.nextInt();
-			 resultado = a / b;
+			 resultado = a + b;
 			 System.out.println("El resultado es: " + resultado);
 		 }
 		 }
